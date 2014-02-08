@@ -9,6 +9,14 @@ Then grab the latest version of the MaxCoin source code from Github
 
 $ git clone https://github.com/Max-Coin/MaxCoin.git
 
+$ cd MaxCoin
+
+To build the GUI run the following commands:
+
+$ qmake
+
+$ make
+
 To build the daemon, run the following commands
 
 $ cd maxcoin/src
@@ -18,14 +26,6 @@ $ make -f makefile.unix
 Optionally, debugging symbols can be removed from the binary to reduce it's size. This can be done using strip.
 
 $ strip maxcoind
-
-Then, to build the GUI, run the following commands:
-
-$ cd ..
-
-$ qmake
-
-$ make
 
 Troubleshooting:
 -------------
