@@ -7,7 +7,7 @@ To install the required dependencies, run the following command:
 
 Then grab the latest version of the MaxCoin source code from Github
 
-<code>$ git clone https://github.com/Max-Coin/MaxCoin.git</code>
+<code>$ git clone https://github.com/Max-Coin/maxcoin.git</code>
 
 <code>$ cd MaxCoin</code>
 
