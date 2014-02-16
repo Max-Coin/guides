@@ -15,7 +15,7 @@ To build the GUI run the following commands:
 
 <code>$ qmake</code>
 
-<code><code>$ make</code>
+<code>$ make</code>
 
 To build the daemon, run the following commands
 
