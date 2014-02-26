@@ -23,7 +23,7 @@ To build the daemon, run the following commands
 
 <code>$ make -f makefile.unix</code>
 
-Optionally, debugging symbols can be removed from the binary to reduce it's size. This can be done using strip.
+Optionally, debugging symbols can be removed from the binary to reduce it's size. This can be done using <code>strip</code>.
 
 <code>$ strip maxcoind</code>
 
