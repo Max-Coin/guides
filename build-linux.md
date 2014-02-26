@@ -33,7 +33,7 @@ Troubleshooting:
 Building miniupnpc
 ----------------
 
-If your OS doesn't support libminiupnpc, you can build this manually by performing the following steps:
+If your OS doesn't support <code>libminiupnpc</code>, you can build this manually by performing the following steps:
 
 <code>$ wget 'http://miniupnp.free.fr/files/download.php?file=miniupnpc-1.6.tar.gz' -O miniupnpc-1.6.tar.gz</code>
 
@@ -48,7 +48,7 @@ If your OS doesn't support libminiupnpc, you can build this manually by performi
 Cleaning the build:
 ----------------
 
-If you have to clean your build environment you may have to rebuild LevelDB manually. This can be done using:
+If you have to clean your build environment you may have to rebuild <code>LevelDB</code> manually. This can be done using:
 
 <code>$ cd src/leveldb</code>
 
