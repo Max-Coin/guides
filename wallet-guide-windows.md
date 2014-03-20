@@ -5,6 +5,18 @@ The MaxCoin wallet is supplied in both graphical and command-line form. This fil
 
 For both users of Windows 7 and 8, this should be placed in <code>C:\Users\<username>\AppData\Roaming\MaxCoin\maxcoin.conf</code>.
 
+Installation
+------------
+
+To install the wallet, simply copy the contents of this folder to any location you desire on your computer. You can create a desktop shortcut by right-clicking on maxcoin-qt.exe and selecting Send > To desktop (create shortcut).
+
+Upgrading your wallet
+---------------------
+
+If you are upgrading from a previous version of MaxCoin, you'll need to ensure you make a back up of your wallet file. This is located at C:\Users\<username>\AppData\Roaming\MaxCoin\wallet.dat. Make a copy of this and store it in a safe location - this is the file that allows you to access your coins, it contains your private keys - in the unlikely event that something goes wrong with the install, you'll need this. Now, install the new version as per the instructions above. This should overwrite the existing version, whilst keeping the data intact. Finally, run the wallet and confirm that the update has occurred by viewing the version in the Debug window (Help > Debug window). It should read v0.9.0.0-xxxxxxxx-beta.
+
+If you find you no longer have access to your old addresses or coins, copy the wallet.dat file back to the original location, C:\Users\<username>\AppData\Roaming\MaxCoin\, and restart your MaxCoin wallet.
+
 Graphical wallet (maxcoin-qt.exe)
 ---------------------------------
 
